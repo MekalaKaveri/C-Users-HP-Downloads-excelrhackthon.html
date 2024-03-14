@@ -1,0 +1,139 @@
+/* Body Styles */
+.logo-container {
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 25%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;  /* Light background color */
+  }
+  
+  /* Header Styles */
+  .header {
+    background-image: url("images/header_background.jpg");  /* Add a background image to the header */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #fff;  /* White text color for header */
+    text-align: center;
+  }
+  
+  .header h1,
+  .header h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header img {
+    width: 200px;  /* Adjust logo size */
+  }
+  
+  /* Navigation Styles */
+  .navigation {
+    background-color: #333;  /* Dark background color for navigation */
+    padding: 10px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navigation li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .navigation a:hover {
+    background-color: #111;  /* Hover effect for navigation links */
+  }
+  
+  /* Main Content Styles */
+  .main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .program-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  
+  .program-buttons button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .program-buttons button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .program-details {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 768px) {
+    .header h1,
+    .header h2 {
+      font-size: 1.5em;  /* Adjust font size for smaller screens */
+    }
+  
+    .navigation {
+      font-size: 0.8em;  /* Adjust font size for navigation on smaller screens */
+    }
+  
+    .program-buttons {
+      flex-direction: column;  /* Stack buttons vertically on small screens */
+    }
+  
+    .program-buttons button {
+      margin-bottom: 10px;  /* Add space between buttons on small screens */
+    }
+  }
